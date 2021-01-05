@@ -1,0 +1,238 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+}
+h1 {
+  font-weight: 900;
+  font-size: 4.7vw;
+  text-transform: uppercase;
+  font-style: italic;
+  color: azure;
+}
+
+#header {
+  transition: 0.3s ease-in-out;
+}
+/*NAV BAR */
+.navbar {
+  text-transform: uppercase;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 2.6vw;
+}
+.nav-link {
+  font-weight: 700;
+  color: burlywood;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.75)
+  );
+}
+a {
+  color: indigo;
+  font-size: 1.7vw;
+  cursor: pointer;
+}
+a:hover {
+  color: aqua;
+}
+.navbar-toggler {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.75)
+  );
+}
+.icon {
+  color: beige;
+}
+.hero {
+  position: relative;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.75)
+  );
+}
+
+.dark-background {
+  background-color: lightsalmon;
+  color: black;
+}
+.btn-main {
+  background-color: darkcyan;
+  width: 100%;
+  padding: 10px;
+  color: cornsilk;
+  font-size: 1.3vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 1rem;
+}
+.btn-main:hover {
+  transform: scale(1.05);
+  background-color: ghostwhite;
+  color: cornflowerblue;
+}
+#summary {
+  font-family: "Titillium Web", sans-serif;
+  color: black;
+  font-size: 20px;
+}
+#york {
+  background-image: url(./img/york.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#eduach {
+  color: ivory;
+}
+#sectionpop {
+  border: 2px solid khaki;
+  border-radius: 6px;
+  transition: transform 0.18s ease-in-out;
+}
+#sectionpop:hover {
+  transform: scale(1.14);
+  cursor: crosshair;
+}
+.edubadge {
+  background-color: floralwhite;
+}
+.education {
+  text-align: center;
+}
+.service-icon {
+  background-color: aquamarine;
+  font-size: 2.3vw;
+}
+.uni {
+  letter-spacing: 0.2vw;
+  font-weight: 900;
+  color: darkred;
+}
+
+.loblaws {
+  padding: 0.6vw;
+  width: 23vw;
+  border: 2px solid lightblue;
+  border-radius: 10px;
+}
+#techback {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(5, 84, 94, 1) 16%,
+    #bbb 91.1%
+  );
+}
+#tech {
+  color: khaki;
+}
+#js {
+  font-size: 70px;
+}
+#html {
+  font-size: 70px;
+}
+#css {
+  font-size: 58px;
+}
+#java {
+  font-size: 105px;
+}
+#python {
+  font-size: 75px;
+}
+#c {
+  font-size: 80px;
+}
+#bootstrap {
+  font-size: 85px;
+}
+#reactjs {
+  font-size: 93px;
+}
+#firebase {
+  width: 98px;
+}
+#express {
+  font-size: 100px;
+  margin-right: 5px;
+  color: black;
+}
+#node {
+  font-size: 115px;
+}
+#projects {
+  background-image: url(./img/programming.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#proheader {
+  color: white;
+  margin-bottom: 15px;
+}
+#probadge {
+  background-color: floralwhite;
+}
+.black-background {
+  background-color: #333300;
+  color: #e6ffff;
+}
+#cont1 {
+  display: flex;
+  flex-direction: row;
+}
+#gmail {
+  font-size: x-large;
+  margin-right: 10px;
+}
+#cont2 {
+  display: flex;
+  flex-direction: row;
+}
+#phonenum {
+  font-size: xx-large;
+  margin-right: 10px;
+}
+#social {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+#mypic {
+  width: 300px;
+  height: 420px;
+  border-radius: 50%;
+}
+#linkedin {
+  font-size: 50px;
+  margin-right: 35px;
+  color: aliceblue;
+}
+#linkedin:hover {
+  color: aqua;
+}
+#github {
+  font-size: 50px;
+  color: aliceblue;
+}
+#github:hover {
+  color: aqua;
+}

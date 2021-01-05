@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <script src="./index.js"></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!--Header-->
+    <nav id="header" class="fixed-top navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" onclick="backtotop()">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon">|</span>
+          <span class="icon">|</span>
+          <span class="icon">|</span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" onclick="backtotop()">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tech">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#proheader">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+          </ul>
+        </div>
+        </div>
+    </nav>
+
+
+    <!--Main Content-->
+    <section class="hero">
+        <img class="img-fluid" src="img/background.jpg" alt="Lake">
+        <div class="hero-text p-5">
+            <h1>Quang Tran</h1>
+        </div>
+    </section>
+
+    <section class="dark-background py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2>About Me</h2>
+            <p id="summary"><i class="mr-1 fa fa-quote-left" aria-hidden="true"></i> A diligent university student and an enthusiastic Software / Front-End Developer with basic understanding of Back-End process. 
+              Excellent adaptability and attention to detail. Keen on solving Math and algorithmic problems. Always eager to broaden my horizons and explore new technologies. Always strive for productivity and efficiency in building scalable applications. 
+              Possess diverse skillset - thrive under pressure and in an agile, fast-paced environment.  <i class="ml-1 fa fa-quote-right" aria-hidden="true"></i></p>
+          </div>
+          <div class="col-md-4">
+            <a href="https://drive.google.com/file/d/1G-xXy4rYfnIpxWvLRMPFhIWGmKANqjLw/view?usp=sharing" target="_blank" class="btn btn-main mt-3"><i class="fa fa-address-card" aria-hidden="true"></i> My Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="york" class="bright services py-5">
+      <div class="container">
+        <h2 id="eduach">Education & Achievements</h2>
+        <div class="row">
+          <div class="col-md-4 education">
+            <div class="m-3 shadow">
+              <div id="sectionpop" class="row">
+                <div class="col-sm-3 service-icon">
+                  <div class="d-flex h-100">
+                    <div class="mx-auto align-self-center">
+                      <i class="fa fa-book" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="edubadge col-sm-9">
+                  <div class="p-2">
+                    <h4 class="uni">York University</h4>
+                    <p>Degree: Honours BSc</p>
+                    <p>Program: Computer Science (Software Dev Stream)</p>
+                    <p>Expected graduation: September 2023</p>
+                    <p>Current GPA: 8.6 / 9.0</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 education">
+            <div class="m-3 shadow">
+              <div id="sectionpop" class="row">
+                <div class="col-sm-3 service-icon">
+                  <div class="d-flex h-100">
+                    <div class="mx-auto align-self-center">
+                      <i class="fa fa-trophy" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="edubadge col-sm-9">
+                  <div class="p-2">
+                    <h4 class="uni">Award</h4>
+                    <p>York University Student Life Award (2019)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 education">
+            <div class="m-3 shadow">
+              <div id="sectionpop" class="row">
+                <div class="col-sm-3 service-icon">
+                  <div class="d-flex h-100">
+                    <div class="mx-auto align-self-center">
+                      <i class="fa fa-trophy" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="edubadge col-sm-9">
+                  <div class="p-2">
+                    <h4 class="uni">Scholarship</h4>
+                    <p>York University Entrance Scholarship (2019)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 education">
+            <div class="m-3 shadow">
+              <div id="sectionpop" class="row">
+                <div class="col-sm-3 service-icon">
+                  <div class="d-flex h-100">
+                    <div class="mx-auto align-self-center">
+                      <i class="fa fa-book" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="edubadge col-sm-9">
+                  <div class="p-2">
+                    <h4 class="uni">Coursework</h4>
+                    <p>Mobile and Web Computing, Object Oriented Programming, UI Design.</p>
+                    <p>Software Tools, Logic and Theory of Computation, Data Structures and Algorithms.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 education">
+            <div class="m-3 shadow">
+              <div id="sectionpop" class="row">
+                <div class="col-sm-3 service-icon">
+                  <div class="d-flex h-100">
+                    <div class="mx-auto align-self-center">
+                      <i class="fa fa-certificate" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="edubadge col-sm-9">
+                  <div class="p-2">
+                    <h4 class="uni">Scholarships</h4>
+                    <p>York International Scholarship of Merit x2 (2020)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="techback" class="py-4">
+      <div class="container">
+        <h2 id="tech">Technical Skills</h2>
+      </div>
+    </section>
+
+    <section class="dark-background py-5">
+      <div class="container">
+        <div class="slider-item">
+          <div class="row">
+            <div class="col-md-8">
+              <h2 id="navlink1">JavaScript, jQuery, HTML, CSS</h2>
+            </div>
+            <div class="col-md-4">
+              <img id="js" src="https://img.icons8.com/wired/64/000000/javascript-logo.png"/>
+              <img id="html" src="https://img.icons8.com/ios/50/000000/programming.png"/>
+              <i id="css" class="devicon-css3-plain-wordmark"></i>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+    
+    <section class="dark-background py-5">
+      <div class="container">
+        <div class="slider-item">
+          <div class="row">
+            <div class="col-md-8">
+              <h2>Java</h2>
+            </div>
+            <div class="col-md-4">
+              <i id="java" class="devicon-java-plain-wordmark"></i>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="dark-background py-5">
+      <div class="container">
+        <div class="slider-item">
+          <div class="row">
+            <div class="col-md-8">
+              <h2>Python</h2>
+            </div>
+            <div class="col-md-4">
+              <i id="python" class="devicon-python-plain"></i>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="dark-background py-5">
+      <div class="container">
+        <div class="slider-item">
+          <div class="row">
+            <div class="col-md-8">
+              <h2>C</h2>
+            </div>
+            <div class="col-md-4">
+              <i id="c" class="devicon-c-plain colored"></i>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="dark-background py-5">
+      <div class="container">
+        <div class="slider-item">
+          <div class="row">
+            <div class="col-md-8">
+              <h2>Bootstrap</h2>
+            </div>
+            <div class="col-md-4">
+              <i id="bootstrap" class="devicon-bootstrap-plain-wordmark colored"></i>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="dark-background py-5">
+      <div class="container">
+        <div class="slider-item">
+          <div class="row">
+            <div class="col-md-8">
+              <h2>React.js</h2>
+            </div>
+            <div class="col-md-4">
+              <i id="reactjs" class="devicon-react-original-wordmark"></i>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="dark-background py-5">
+      <div class="container">
+        <div class="slider-item">
+          <div class="row">
+            <div class="col-md-8">
+              <h2>Firebase</h2>
+            </div>
+            <div class="col-md-4">
+              <img id="firebase" src="https://www.gstatic.com/devrel-devsite/prod/veaa02889f0c07424beaa31d9bac1e874b6464e7ed7987fde4c94a59ace9487fa/firebase/images/touchicon-180.png"/>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="dark-background py-5">
+      <div class="container">
+        <div class="slider-item">
+          <div class="row">
+            <div class="col-md-8">
+              <h2>Node.js / Express.js</h2>
+            </div>
+            <div class="col-md-4">
+              <i id="express" class="devicon-express-original-wordmark colored"></i>
+              <i id="node" class="devicon-nodejs-plain-wordmark"></i>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="projects py-5">
+      <div class="container">
+        <h2 id="proheader" class="project-header">Projects</h2>
+        <div class="row">
+          <div id="probadge" class="col-md-4">
+            <div id="sectionpop2" class="shadow-lg my-3">
+             <img class="img-fluid" src="img/web.png" alt="">
+             <div class="project-content p-3">
+               <h4>Rock & Paper & Scissors Game</h4>
+               <p>A responsive game with colourful design built using plain HTML, CSS and JavaScript.</p>
+               <a href="https://quangtran1203.github.io/rock_paper_scissors_game/" target="_blank" class="btn btn-main mt-2"><i class="fa fa-folder-open" aria-hidden="true"></i>  Visit</a>
+             </div>
+            </div>
+          </div>
+          <div id="probadge" class="col-md-4">
+            <div class="shadow-lg my-3">
+             <img class="img-fluid" src="img/react.png" alt="">
+             <div class="project-content p-3">
+               <h4>Weather App</h4>
+               <p>An elegant React weather web application that provides detailed weather conditions. Accurate data acquired from OpenWeather API.</p>
+               <a href="https://quangtran1203.github.io/WeatherApp/" target="_blank" class="btn btn-main mt-2"><i class="fa fa-folder-open" aria-hidden="true"></i>  Visit</a>
+             </div>
+            </div>
+          </div>
+          <div id="probadge" class="col-md-4">
+            <div class="shadow-lg my-3">
+             <img class="img-fluid" src="img/react.png" alt="">
+             <div class="project-content p-3">
+               <h4>Meme Generator</h4>
+               <p>Another clever React web app that enables users to generate memes with text of choice. Meme pictures obtained from ImgFlip API.</p>
+               <a href="https://quangtran1203.github.io/MemeGenerator/" target="_blank" class="btn btn-main mt-2"><i class="fa fa-folder-open" aria-hidden="true"></i>  Visit</a>
+             </div>
+            </div>
+          </div>
+          <div id="probadge" class="col-md-4">
+            <div class="shadow-lg my-3">
+             <img class="img-fluid" src="img/java.png" alt="">
+             <div class="project-content p-3">
+               <h4>Mortgage Calculator</h4>
+               <p>A comprehensive mortgage calculator that allows users to find their monthly payment based on their principal, amortization and interest rate. It comes with voice output and sensor listener which clears all input fields on shake.</p>
+               <a href="https://github.com/quangtran1203/Mortgage_Calc_Pro" target="_blank" class="btn btn-main mt-2"><i class="fa fa-github-square" aria-hidden="true"></i> Github - source code</a>
+             </div>
+            </div>
+          </div>
+          <div id="probadge" class="col-md-4">
+            <div class="shadow-lg my-3">
+             <img class="img-fluid" src="img/java.png" alt="">
+             <div class="project-content p-3">
+               <h4>CryptoNote</h4>
+               <p>Encrypting and decrypting passwords powered by self-developed algorithms. Able to save and load files from any Android devices.</p>
+               <a href="https://github.com/quangtran1203/CryptoNote" target="_blank" class="btn btn-main mt-2"><i class="fa fa-github-square" aria-hidden="true"></i> Github - source code</a>
+             </div>
+            </div>
+          </div>
+          <div id="probadge" class="col-md-4">
+            <div class="shadow-lg my-3">
+             <img class="img-fluid" src="img/java.png" alt="">
+             <div class="project-content p-3">
+               <h4>Test Your Knowledge Quiz</h4>
+               <p>A quiz on geography structured by List and Map data structures. Questions and keys were obtained from the library “i2c” published by professor H.Roumani.</p>
+               <a href="https://github.com/quangtran1203/Test-Your-Knowledge-Quiz" target="_blank" class="btn btn-main mt-2"><i class="fa fa-github-square" aria-hidden="true"></i> Github - source code</a>
+             </div>
+            </div>
+          </div>
+          <div id="probadge" class="col-md-4">
+            <div class="shadow-lg my-3">
+             <img class="img-fluid" src="https://res.cloudinary.com/practicaldev/image/fetch/s--ihk5UYaA--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/te0nfbinusy5sbwdxj5r.png" alt="">
+             <div class="project-content p-3">
+               <h4>Facebook Clone</h4>
+               <p>A full-fledged web app developed using React.js and Firebase. The design imitated Facebook’s UI using Material UI. Integrated Google authentication, React Context API and real-time databases pushed to Firebase.</p>
+               <a href="https://facebook-clone-25e38.web.app/" target="_blank" class="btn btn-main mt-2"><i class="fa fa-folder-open" aria-hidden="true"></i>  Visit</a>
+             </div>
+            </div>
+          </div>
+          <div id="probadge" class="col-md-4">
+            <div class="shadow-lg my-3">
+             <img class="img-fluid" src="https://res.cloudinary.com/practicaldev/image/fetch/s--ihk5UYaA--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/te0nfbinusy5sbwdxj5r.png" alt="">
+             <div class="project-content p-3">
+               <h4>Amazon Clone</h4>
+               <p>A full-stack e-commerce website built with React.js, Firebase and Express as the back-end. Utilized Firebase Cloud Functions and Stripe integration to process real payments and real-time databases. Also used dependencies and React hooks / components such as React Context API, React Router, CurrencyFormat, Axios, Moment, useEffect, useState, ...</p>
+               <a href="https://clone-6b2c5.web.app/" target="_blank" class="btn btn-main mt-2"><i class="fa fa-folder-open" aria-hidden="true"></i>  Visit</a>
+             </div>
+            </div>
+          </div>
+          <div id="probadge" class="col-md-4">
+            <div class="shadow-lg my-3">
+             <img class="img-fluid" src="https://miro.medium.com/max/365/1*Jr3NFSKTfQWRUyjblBSKeg.png" alt="">
+             <div class="project-content p-3">
+               <h4>Code Breaker Game</h4>
+               <p>A full-fledged web app created with JavaScript, jQuery, CSS and Express.js framework as the back-end server.</p>
+               <a href="https://github.com/quangtran1203/CodeBreakerGame" target="_blank" class="btn btn-main mt-2"><i class="fa fa-github-square" aria-hidden="true"></i> Github - source code</a>
+             </div>
+            </div>
+          </div>
+          <div id="probadge" class="col-md-4">
+            <div class="shadow-lg my-3">
+             <img class="img-fluid" src="img/bootstrap.png" alt="">
+             <div class="project-content p-3">
+               <h4>My Portfolio</h4>
+               <p>This portfolio was designed utilizing Bootstrap, Font Awesome and Devicon toolkits.</p>
+               <a href="#" class="btn btn-main mt-2"><i class="fa fa-folder-open" aria-hidden="true"></i>  Visit</a>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+
+    <footer id="footer" class="black-background py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2 class="contact-text">
+                Contact Me
+              </h2>
+              <br>
+              <div id="cont1">
+              <i id="gmail" class="fa fa-envelope" aria-hidden="true"></i>
+              <p>minhquangtran1203@gmail.com</p>
+              </div>
+              <br/>
+              <div id="cont2">
+              <i id="phonenum" class="fa fa-mobile" aria-hidden="true"></i>
+              <p>(647)-563-8199</p>
+              </div>
+              <div id="social" class="social-links p-2">
+                <a href="https://www.linkedin.com/in/quang-tran-b3510a196/" target="_blank"><i id="linkedin" class="fa fa-linkedin-square"></i></a>
+                <a href="https://github.com/quangtran1203?tab=repositories" target="_blank"><i id="github" class="fa fa-github"></i></a>
+              </div>
+            </div>
+            <form class="mypic col-lg-6">
+              <img id="mypic" src="img/mypic.JPG" alt="" class="img-fluid">
+            </form>
+          </div>
+        </div>
+        <div class="attribution text-center p-3 m-15">
+          <p>&copy; 2020 - 2021   Quang Tran</p>
+        </div>
+    </footer>
+
+    <script>
+      window.onscroll = function(){
+        handleScroll();
+      }
+      function handleScroll(){
+        if(document.documentElement.scrollTop > 600){
+          document.getElementById("header").setAttribute("style", "background: #ccffcc;");
+        }
+        else {
+          document.getElementById("header").style.backgroundColor = "transparent";
+        }
+      }
+
+      /*function interval(time){
+        return new Promise((response) => setTimeout(response, time));
+      }
+
+      var slides = document.getElementsByClassName("slider-item");
+      async function slide(index, slides){
+        slides[index].className = "slider-item active-slider-item";
+        if(index ==0) {
+          slides[slides.length - 1].className = "slider-item";
+        }
+        else {
+          slides[index - 1].className = "slider-item";
+        }
+        interval(1800).then(() => {
+          if (index == slides.length - 1){
+            index = -1;
+          }
+          slide(index + 1, slides);
+        })
+      }
+
+      slide(1, slides);  */
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!--continue from 1:14:40-->
