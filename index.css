@@ -178,6 +178,9 @@ a:hover {
 #node {
   font-size: 115px;
 }
+#mongodb {
+  font-size: 120px;
+}
 #projects {
   background-image: url(./img/programming.jpg);
   background-position: center;
