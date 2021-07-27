@@ -56,6 +56,13 @@ a:hover {
 .hero {
   position: relative;
 }
+#pcc-img {
+  margin-top: 25px;
+  width: 250px;
+}
+#ts {
+  width: 100px;
+}
 .hero-text {
   position: absolute;
   top: 50%;
