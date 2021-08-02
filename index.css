@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Titillium Web", sans-serif;
 }
@@ -218,8 +221,8 @@ a:hover {
   background-color: floralwhite;
 }
 .black-background {
-  background-color: #333300;
-  color: #e6ffff;
+  background-color: lightsalmon;
+  color: black;
 }
 #cont1 {
   display: flex;
